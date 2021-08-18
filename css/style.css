@@ -135,16 +135,16 @@ p:hover{
 
 @media(max-width: 740px) {
   
-  .caixa, .redessociais, .portifoliocaixa li{
+  .caixa{
     width: 100%;
-    background: #EEEEEE;
-    padding: 1em;
-    box-shadow: 2px 2px 16px rgba(0, 0, 0, 0.16) ;
-    border-radius: 10px;
-    text-align: initial;
+    position: absolute;
+    left: -5rem;
   }
-  
- 
+  .portifoliocaixa{
+    margin-top: 35rem;
+    text-align:left;
+    font-size: small;
+  }
 }
 
 

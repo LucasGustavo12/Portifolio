@@ -1,150 +1,171 @@
-img{
-  display: block;
-  max-width: 100%;
+img {
+	display: block;
+	max-width: 100%;
 }
 
-body{
-  font-family: "Source Code Pro", monospace;
-  background: url("../img/background.jpeg") no-repeat top center ;
-  background-attachment: fixed ;
-  background-size: cover;
-  display: grid;
-  align-items: center;
-  justify-items: center;
-  height: 100vh;
-  color: #aeaeae;
-
+body {
+	font-family: "Source Code Pro", monospace;
+	background: url("../img/background.jpeg") no-repeat top center;
+	background-attachment: fixed;
+	background-size: cover;
+	display: grid;
+	align-items: center;
+	justify-items: center;
+	height: 100vh;
+	color: #aeaeae;
 }
 
-li{
-  list-style: none;
+li {
+	list-style: none;
 }
 
-.title{
-  font-size: 36px;
-  font-weight: normal ;
+.title {
+	font-size: 36px;
+	font-weight: normal;
 }
 
-.caixa{
-  background: #EEEEEE;
-  padding: 4em;
-  box-shadow: 2px 2px 16px rgba(0, 0, 0, 0.16) ;
-  border-radius: 50px;
-  text-align: center;
+.caixa {
+	max-width: 886px;
+	margin: 0 auto;
+	background: #eeeeee;
+	padding: 4em;
+	box-shadow: 2px 2px 16px rgba(0, 0, 0, 0.16);
+	border-radius: 50px;
+	text-align: center;
 }
-.me{
-  border-radius: 50%;
-  margin-bottom: 2em;
-  max-width:200px;
-  max-height:150px;
-  width: auto;
-  height: auto;
-  margin: auto;
+.me {
+	border-radius: 50%;
+	margin-bottom: 2em;
+	max-width: 200px;
+	max-height: 150px;
+	width: auto;
+	height: auto;
+	margin: auto;
 }
-.caixa span{
-  font-size: 24px;
-}
-
-.caixa p{
-  font-size: 18px;
-  margin-top: 1rem;
-}
-.me p{
-  font-size: 18px;
-  margin-top: 2rem;
-  margin-bottom: 4rem;
+.caixa span {
+	font-size: 24px;
 }
 
-.redessociais{
-  display: flex;
-  justify-content: center;
-  margin-top: 1rem;
+.caixa p {
+	font-size: 18px;
+	margin-top: 1rem;
+}
+.me p {
+	font-size: 18px;
+	margin-top: 2rem;
+	margin-bottom: 4rem;
 }
 
-.redessociais li{
-  margin-right: 1rem;
-}
-.redessociais li:hover{
-  opacity: 0.5;
-}
-
-h1, h2, h3{
-  font-size: 18px;
-  font-weight: bold;
-  margin-bottom: 2rem;
+.redessociais {
+	display: flex;
+	justify-content: center;
+	margin-top: 1rem;
 }
 
- p{
-  margin-bottom: 2rem;
+.redessociais li {
+	margin-right: 1rem;
+}
+.redessociais li:hover {
+	opacity: 0.5;
 }
 
-p:hover{
-  font-size: 18px;
-  color: #000000;
-  cursor: default;
+h1,
+h2,
+h3 {
+	font-size: 18px;
+	font-weight: bold;
+	margin-bottom: 2rem;
 }
 
-.portifoliocaixa{
-  max-width: 886px;
-  background: #EEEEEE;
-  padding: 3rem;
-  box-shadow: 2px 2px 16px rgba(0, 0, 0, 0.16) ;
-  border-radius: 50px;
-  margin-top: 3rem;
-  text-align: center;
+p {
+	margin-bottom: 2rem;
+}
+.portifolio-caixa--p {
+	transition: 0.2s ease-in-out;
+}
+.portifolio-caixa--p:hover {
+	color: #000000;
+	cursor: default;
+	transform: scale(1.1);
+	transition: 0.2s ease-in-out;
 }
 
-.portifolio li{
-  display: grid;
-  grid-template-columns: auto 1fr ;
-
+.portifolio-caixa {
+	max-width: 886px;
+	background: #eeeeee;
+	padding: 3rem;
+	box-shadow: 2px 2px 16px rgba(0, 0, 0, 0.16);
+	border-radius: 50px;
+	margin-top: 3rem;
+	text-align: center;
 }
 
-.portifolio img{
-  border-radius: 10px;
+.portifolio li {
+	display: grid;
+	grid-template-columns: auto 1fr;
 }
 
-.webdev .formacao .atual{
-  margin-top: 2em;
-  shape-outside: border-box;
+.portifolio img {
+	border-radius: 10px;
 }
 
-
-.localizacao{
-  text-align: center;
-  margin-top: 2rem;
+.webdev .formacao .atual {
+	margin-top: 2em;
+	shape-outside: border-box;
 }
 
-
-.mapa{
-  background: #EEEEEE;
-  padding: 2em;
-  box-shadow: 2px 2px 16px rgba(0, 0, 0, 0.16) ;
-  border-radius: 50px;
-  text-align: center;
+.localizacao {
+	text-align: center;
+	margin-top: 2rem;
 }
 
-.copyright{
-  font-size: 30px;
-  color: white;
-  text-shadow: 2px 2px 16px black;
-  margin-bottom: 30vh;
-  text-align: center;
-  margin-top: 4rem;
+.mapa {
+	background: #eeeeee;
+	padding: 2em;
+	box-shadow: 2px 2px 16px rgba(0, 0, 0, 0.16);
+	border-radius: 50px;
+	text-align: center;
 }
 
-@media(max-width: 740px) {
-  
-  .caixa{
-    width: 100%;
-    position: absolute;
-    left: -5rem;
-  }
-  .portifoliocaixa{
-    margin-top: 35rem;
-    text-align:left;
-    font-size: small;
-  }
+.copyright {
+	font-size: 30px;
+	color: white;
+	text-shadow: 2px 2px 16px black;
+	margin-bottom: 30vh;
+	text-align: center;
+	margin-top: 4rem;
 }
 
+@media (max-width: 768px) {
+	.caixa {
+		width: 95%;
+		margin-top: 40px;
+		max-width: 95%;
+		padding: 20px 10px;
+	}
+	.portifolio-caixa {
+		text-align: left;
+		font-size: small;
+	}
+	iframe {
+		width: 90%;
+		height: 180px;
+	}
+	main {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		width: 90%;
+		margin: 0 auto;
+	}
+	.mapa {
+		width: 80%;
+		padding: 30px 20px;
+		margin: 0 auto;
+	}
+}
 
+.portifolio-caixa--img {
+	margin: 0 auto;
+	margin-bottom: 30px;
+}

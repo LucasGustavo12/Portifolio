@@ -114,19 +114,6 @@ p {
 	shape-outside: border-box;
 }
 
-.localizacao {
-	text-align: center;
-	margin-top: 2rem;
-}
-
-.mapa {
-	background: #eeeeee;
-	padding: 2em;
-	box-shadow: 2px 2px 16px rgba(0, 0, 0, 0.16);
-	border-radius: 50px;
-	text-align: center;
-}
-
 .copyright {
 	font-size: 30px;
 	color: white;
